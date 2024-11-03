@@ -2,7 +2,7 @@
 
 
 ## Features
-
+- login use firebase auth
 - Product list screen with the ability to add products to the shopping cart.
 - Cart List
 
@@ -58,6 +58,8 @@ This project utilizes several packages to enhance functionality and streamline d
 - **pretty_dio_logger: ^1.4.0**
   - A logger for Dio, providing pretty-printing of request and response data. Chosen for its utility in debugging API calls, making it easier to visualize and troubleshoot network interactions.
 
+- **firebase_auth: 
+ 
 
 
 ## Steps to Run the Project
