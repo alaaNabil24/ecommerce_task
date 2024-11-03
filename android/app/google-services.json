@@ -7,6 +7,44 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:397519149234:android:825f39ee04569b992251ab",
+        "android_client_info": {
+          "package_name": "com.alaa.marketAppTask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzCYmPN74fPg_evgbiitUPwTLrc52eofM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397519149234:android:3455b2d021282c0a2251ab",
+        "android_client_info": {
+          "package_name": "com.alaa.market_app_task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzCYmPN74fPg_evgbiitUPwTLrc52eofM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:397519149234:android:e0a105ae69a925502251ab",
         "android_client_info": {
           "package_name": "com.example.app"

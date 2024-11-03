@@ -14,13 +14,6 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
     return AppBar(
       title: Text(title, style: const TextStyle(color: Colors.white)),
       centerTitle: true,
-      leading:isCartPage?  IconButton(
-        icon: const Icon(
-          Icons.arrow_back,
-          color: Colors.white,
-        ),
-        onPressed: () => Navigator.of(context).pop(),
-      ) : Container(),
       backgroundColor: AppColors.primaryColor,
       actions: [
 

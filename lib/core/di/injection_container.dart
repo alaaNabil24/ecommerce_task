@@ -21,7 +21,7 @@ Future<void> initializeDependencies() async {
   sl.registerSingleton<DioHelper>(DioHelper());
 
   sl.registerFactory<ProductsRepositoryApi>(() => ProductsRepositoryApiImpl());
-  sl.registerFactory<AuthRepository>(() => AuthRepositoryImpl(sl()));
+  sl.registerFactory<AuthRepository>(() => AuthRepositoryImpl());
   sl.registerFactory<ProductsRepositoryLocal>(() => ProductsRepositoryLocalImpl());
   sl.registerFactory<CartRepository>(() => CartRepositoryImp());
   sl.registerSingleton<CartUseCase>(CartUseCase(sl()));
