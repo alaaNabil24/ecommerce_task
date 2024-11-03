@@ -10,6 +10,7 @@ import 'core/helpers/dio_helper.dart';
 import 'features/auth/presentation/pages/login.dart';
 import 'features/products/domain/entities/product_data.dart';
 import 'features/products/presentation/pages/products_page.dart';
+import 'firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -18,7 +19,9 @@ void main() async {
   await Hive.initFlutter();
   Hive.registerAdapter(ProductAdapter());
   Hive.registerAdapter(CartItemAdapter());
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 
